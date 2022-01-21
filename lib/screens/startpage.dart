@@ -441,7 +441,7 @@ return AnimatedBuilder(
                         transitionsBuilder: (context, animation, secondaryAnimation, child) {
                               const begin = Offset(1, 0);
                               const end = Offset.zero;
-                              const curve = Curves.easeIn;
+                              const curve = Curves.easeInOut;
 
                               var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
 

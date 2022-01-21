@@ -117,7 +117,7 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
                   width: width/4 ,
                   height: (height*0.09),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.square_grid_2x2_fill, size: 40, color: _selectedIndex == 0 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.square_grid_2x2_fill, size: 35, color: _selectedIndex == 0 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
@@ -135,7 +135,7 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
                    width: width/5 ,
                   height: (height*0.085),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.search,size: 40, color: _selectedIndex == 1 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.search,size: 35, color: _selectedIndex == 1 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
@@ -153,7 +153,7 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
    width: width/5 ,
                   height: (height*0.085),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.bookmark_fill,size: 40, color: _selectedIndex == 2 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.bookmark_fill,size: 35, color: _selectedIndex == 2 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
@@ -171,7 +171,7 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
    width: width/6 ,
                   height: (height*0.085),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.person_fill, size: 40, color: _selectedIndex == 3 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.person_fill, size: 35, color: _selectedIndex == 3 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),

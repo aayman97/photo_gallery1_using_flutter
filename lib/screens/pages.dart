@@ -90,7 +90,7 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
               alignment: Alignment.bottomCenter,
               child: Container(
                 width : width,
-                height: height*0.1,
+                height: height*0.11,
                 color : Colors.transparent,
                 child: ClipRect(
                   child: BackdropFilter(filter: ImageFilter.blur(
@@ -114,10 +114,10 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
                   });
                 },
                 child: Container(
-                  width: width/5 ,
-                  height: (height*0.1),
+                  width: width/4 ,
+                  height: (height*0.09),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.square_grid_2x2_fill, size: 30, color: _selectedIndex == 0 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.square_grid_2x2_fill, size: 40, color: _selectedIndex == 0 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
@@ -132,10 +132,10 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
                   });
                 },
                 child: Container(
-                  width: width/5 ,
-                  height: (height*0.1),
+                   width: width/5 ,
+                  height: (height*0.085),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.search,size: 30, color: _selectedIndex == 1 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.search,size: 40, color: _selectedIndex == 1 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
@@ -150,10 +150,10 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
                   });
                 },
                 child: Container(
-                  width: width/5 ,
-                  height: (height*0.1),
+   width: width/5 ,
+                  height: (height*0.085),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.bookmark_fill,size: 30, color: _selectedIndex == 2 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.bookmark_fill,size: 40, color: _selectedIndex == 2 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
@@ -168,23 +168,23 @@ class _PagesWithBottomNavigationBarState extends State<PagesWithBottomNavigation
                   });
                 },
                 child: Container(
-                  width: width/5 ,
-                  height: (height*0.1),
+   width: width/6 ,
+                  height: (height*0.085),
                   color : Colors.transparent,
-                  child: Icon(CupertinoIcons.person_fill, size: 30, color: _selectedIndex == 3 ? Colors.white : Colors.white.withOpacity(0.6),),
+                  child: Icon(CupertinoIcons.person_fill, size: 40, color: _selectedIndex == 3 ? Colors.white : Colors.white.withOpacity(0.6),),
                 ),
               )
               ),
 
                Positioned(
-              top : height*0.9,
+              top : height*0.89,
               left :(width/5)*2,
               child: GestureDetector(
                 onTap: () {
                  print('Upload Image');
                 },
                 child: Transform.scale(
-                  scale: 0.8,
+                  scale: 0.9,
                   child: Container(
                     width: width/5 ,
                     height: (height*0.1),

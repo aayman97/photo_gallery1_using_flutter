@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               TopBar(height, width),
               Container(
-                width: width * 0.82,
+                width: width * 0.9,
                 height: height * 0.3,
                 margin: EdgeInsets.only(top : height*0.05),
                 color: Colors.transparent,
@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(20),
                                   child: Container(
-                                    width: width * 0.7,
+                                    width: width * 0.8,
                                     height: height * 0.15,
                                     color: Color(0xff2f3432).withOpacity(0.6),
                                   ),
@@ -92,14 +92,14 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           Positioned(
                             top: height * 0.02,
-                            left: width * 0.01,
+                            left: width * 0.015,
                             child: Transform.scale(
                               scale: scale,
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(20),
                                 child: Image.asset(
                                   images[index],
-                                  width: width * 0.8,
+                                  width: width * 0.87,
                                   height: height * 0.25,
                                   fit: BoxFit.cover,
                                 ),

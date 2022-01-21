@@ -160,7 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top : height*0.025,bottom: height*0.025),
+                margin: EdgeInsets.only(top : height*0.025,bottom: height*0),
                 child: Row(
                   children: [
                     Text("Today"+"\'s capture", style:GoogleFonts.poppins(
@@ -169,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                             fontWeight: FontWeight.w500,
                                                             fontSize: 25,
                                                             letterSpacing: 1.5,
-                                                            height: 1.2)) ,),
+                                                            height: 1)) ,),
                   ],
                 ),
               ),
